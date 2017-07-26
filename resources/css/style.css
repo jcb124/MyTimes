@@ -45,7 +45,7 @@ div {
   border: 1px solid black;
 }
 
-.content {
+.main {
   display: flex;
   margin: 0 auto 78px auto;
   padding-top: 116px;
@@ -91,5 +91,5 @@ div {
 }
 
 .story-image {
-  
+
 }
