@@ -91,5 +91,23 @@ div {
 }
 
 .story-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
 
+.main-story .story-image {
+  display: block;
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
 }
