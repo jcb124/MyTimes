@@ -41,10 +41,6 @@ a {
   color: black;
 }
 
-div {
-  border: 1px solid black;
-}
-
 .main {
   display: flex;
   margin: 0 auto 78px auto;
@@ -71,19 +67,25 @@ div {
 }
 
 .story {
-
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 .story-container {
-
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 .main {
 
 }
 
-.story-headline {
-
+.story-text {
+  font-size: 17px;
+  color: black;
+  font-family: Georgia;
 }
 
 .story-content {
@@ -110,4 +112,19 @@ div {
   margin-top: 0;
   font-size: 40px;
   text-align: left;
+}
+
+.earth.story-image {
+  display: block;
+  background-image: url("../images/img-story-2.png");
+}
+
+.camera.story-image {
+  display: block;
+  background-image: url("../images/img-story-3.png");
+}
+
+.cat.story-image {
+  display: block;
+  background-image: url("../images/img-story-1.png");
 }
